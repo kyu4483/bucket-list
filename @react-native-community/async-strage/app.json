@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "bucket-list",
-    "slug": "bucket-list",
+    "name": "async-strage",
+    "slug": "async-strage",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,16 +9,18 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "purple"
+      "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "purple"
+        "backgroundColor": "#ffffff"
       }
     },
     "web": {
